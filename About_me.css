@@ -650,7 +650,7 @@ height:509px; display: flex;}
  display: flex;
  width: auto;
  height: 80px;
- background: #ACDAD6;
+ background: rgb(164, 225, 233);
 }
 
 #navlist li {
@@ -737,7 +737,7 @@ hr{
 }
 .rohan{
   position:relative;
-  
+  left:580px;
   top: 0px;
   width: 350px;
   height: 350px;
@@ -827,10 +827,21 @@ position: relative;
   justify-content: center;
   position: relative;
 }
-.map{
+.mapouter{
+  max-width: 300px;
+  max-height: 350px;
   display: flex !important;
   align-items: center !important;
   
+}
+.gmap_iframe
+{
+  position: relative;
+  display: inline-flex;
+  width: 800px;
+  height: 500px;
+  top: 500px;
+  left: 250px;
 }
 
 @media (max-width: 986px) {
@@ -844,6 +855,14 @@ position: relative;
     left:10px;
     
   }
+  .gmap_iframe
+{
+  width: 290px;
+  height: 200px;
+  position:relative ;
+  top:350px;
+  left:-80px
+}
   .container1{
     display: flex;
     max-width: 400px;
@@ -886,7 +905,7 @@ top:140px;}
       top:-190px;
       align-items: center;
       justify-content: center;
-     position: relative;
+      left: 100px;
     width:330px;
     height:330px;
     display: inline-flex;
@@ -902,7 +921,7 @@ top:140px;}
   }
   .htm{
       top:80px;
-     left:10px;
+     left:60px;
   }
   .Physics{
     top: 20px;
